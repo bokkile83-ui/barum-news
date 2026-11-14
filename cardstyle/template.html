@@ -1,78 +1,87 @@
 <!doctype html><html lang="ko"><head><meta charset="utf-8">
-<!-- BARUM NEWS 카드 정본 (유튜브 색감) · 2026.11.14 지점장 확정 「하자」
-     규칙 = cardstyle/README.md. 이 파일을 복사해 섹션 글만 바꾼다. CSS 는 고치지 않는다.
-     그림 경로: 이 파일을 cardstyle/ 안에서 열면 e3d/xxxx.webp 그대로, 다른 폴더면 ../cardstyle/e3d/ 처럼 맞춘다. -->
+<!-- BARUM NEWS 카드 정본 「부드러운 금융 뉴스 매거진」 · 2026.11.14 지점장 「너무 진하다 · 고객이 끌리게」 → GPT 협의 값
+     규칙 = cardstyle/README.md. 이 파일을 복사해 섹션 글만 바꾼다. CSS 는 고치지 않는다. -->
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Noto Sans CJK KR','Noto Sans KR',sans-serif;word-break:keep-all;background:#222}
-.c{width:1080px;height:1080px;position:relative;overflow:hidden;margin-bottom:20px}
-/* 바탕색 = 역할로 고정(장마다 마음대로 바꾸지 않는다) */
-.c.cover{background:#00A86B}   /* 1장 표지 */
-.c.key{background:#2F6BFF}     /* 핵심 · 숫자 */
-.c.warn{background:#FF6B2C}    /* 바뀌는 점 · 주의 · 비교 */
-.c.end{background:#172554}     /* 마지막 정리 */
-.tag{position:absolute;left:64px;top:60px;background:#111;color:#fff;font-weight:900;font-size:40px;padding:14px 30px;border-radius:999px;letter-spacing:-1px}
-.c.end .tag{background:#FFE14D;color:#111}
-.t{position:absolute;left:64px;right:64px;top:150px;font-weight:900;font-size:112px;line-height:1.12;letter-spacing:-5px;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill}
-.t.s{font-size:96px;letter-spacing:-4px}
-.t .y{color:#FFE14D}
-.big{position:absolute;left:56px;top:470px;font-weight:900;color:#FFE14D;-webkit-text-stroke:16px #111;paint-order:stroke fill;letter-spacing:-12px;line-height:1;font-size:300px}
-.big small{font-size:.38em;letter-spacing:-3px;color:#fff}
-.ic{position:absolute;filter:drop-shadow(0 18px 0 rgba(0,0,0,.18))}
-.box{position:absolute;left:64px;right:64px;top:500px;background:#fff;border:7px solid #111;border-radius:34px;padding:30px 36px;font-size:40px;font-weight:700;color:#191F28;line-height:1.45;letter-spacing:-1px}
-.box b{font-weight:900}
-.row{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:44px;font-weight:800;padding:10px 0}
-.row+.row{border-top:4px dashed #D1D6DB}
-.row b{font-size:64px;color:#E8344E;font-weight:900;letter-spacing:-2px}
+body{font-family:'Noto Sans CJK KR','Noto Sans KR',sans-serif;word-break:keep-all;background:#888}
+.c{width:1080px;height:1080px;position:relative;overflow:hidden;margin-bottom:20px;color:#191F28}
+/* 바탕 = 주제별 연한 톤 3가지 */
+.c.fin{background:#F2F7FF}    /* 보험료 · 보장 · 금융 뉴스 */
+.c.life{background:#FFF7ED}   /* 건강 · 생활 정보 */
+.c.save{background:#F1F8F4}   /* 절약 · 혜택 · 지원 제도 */
+.tag{position:absolute;left:72px;top:65px;background:#fff;color:#3182F6;font-weight:800;font-size:30px;padding:10px 24px;border-radius:999px;border:2px solid #D6E6FF;letter-spacing:-.5px}
+.c.life .tag{color:#C2410C;border-color:#FFE1C2}
+.c.save .tag{color:#0E8A5F;border-color:#CDEBDC}
+.t{position:absolute;left:72px;right:72px;top:150px;font-weight:800;font-size:76px;line-height:1.22;letter-spacing:-3px}
+.t.s{font-size:66px}
+.t .b{color:#3182F6}
+.sub{position:absolute;left:72px;right:72px;font-size:32px;font-weight:500;color:#4E5968;line-height:1.5;letter-spacing:-1px}
+.big{position:absolute;left:66px;font-weight:900;color:#3182F6;letter-spacing:-8px;line-height:1;font-size:210px}
+.big small{font-size:.32em;letter-spacing:-2px;font-weight:800;margin-left:6px}
+.ic{position:absolute;right:72px;width:280px}
+.box{position:absolute;left:72px;right:72px;background:#fff;border-radius:28px;padding:22px 34px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:34px;font-weight:700;padding:16px 0;color:#333D4B}
+.row+.row{border-top:2px solid #EEF1F4}
+.row b{font-size:54px;color:#3182F6;font-weight:900;letter-spacing:-2px}
 /* 출처 줄: 숫자가 있는 장은 반드시 — 「조건 · 매체 MM.DD」 */
-.src{position:absolute;left:66px;right:66px;bottom:118px;font-size:28px;font-weight:700;color:rgba(255,255,255,.95)}
-.end1{position:absolute;left:66px;bottom:200px;font-size:40px;font-weight:900;color:#fff}
-.end2{position:absolute;left:66px;bottom:128px;font-size:34px;font-weight:900;color:#FFE14D}
-.ft{position:absolute;left:0;right:0;bottom:0;height:92px;background:#111;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 64px;font-size:34px;font-weight:900;letter-spacing:-.5px}
-.ft span:last-child{color:#FFE14D}
+.src{position:absolute;left:72px;right:72px;bottom:100px;font-size:24px;font-weight:500;color:#6B7684;line-height:1.4}
+.end1{position:absolute;left:72px;bottom:170px;font-size:40px;font-weight:800}
+.date{position:absolute;right:72px;top:78px;font-size:26px;font-weight:600;color:#8B95A1}
+.chip{position:absolute;left:72px;background:#E7F0FF;color:#1B64DA;font-size:28px;font-weight:800;padding:8px 20px;border-radius:12px}
+.lead{position:absolute;left:72px;font-size:36px;font-weight:800;color:#191F28;letter-spacing:-1px}
+.rule{position:absolute;left:72px;right:72px;height:2px;background:#DCE3EC}
+.ft{position:absolute;left:0;right:0;bottom:0;height:76px;background:#E7F0FF;color:#4E5968;display:flex;align-items:center;justify-content:space-between;padding:0 72px;font-size:26px;font-weight:800}
+.c.life .ft{background:#FFEBD6}
+.c.save .ft{background:#DDF1E6}
 </style></head><body>
 
-<!-- 1장 표지: 질문형 제목 + 큰 숫자 + 3D 그림 1개 -->
-<section class="c cover">
- <div class="tag">이번 달 보험 소식</div>
- <div class="t">오래된 실손<br><span class="y">갈아타면</span> 반값?</div>
- <div class="big">50<small>%</small></div>
- <img class="ic" src="e3d/1f4b8.webp" style="right:40px;top:470px;width:400px;transform:rotate(8deg)">
- <div class="src">5세대로 바꾸면 3년간 보험료 절반 · 이달 중 시행 예정 · 파이낸셜뉴스 11.12</div>
+<!-- 표지: 날짜 · 질문 제목 · 큰 숫자 + 라벨 칩 · 굵은 요약 줄 + 회색 설명 · 3D 그림 · 구분선 + 조건·출처 -->
+<section class="c fin">
+ <div class="tag">오늘의 보험 뉴스</div>
+ <div class="date">2026.11.14</div>
+ <div class="t">오래된 실손,<br><span class="b">갈아타면 반값?</span></div>
+ <div class="big" style="top:400px">50<small>%</small></div>
+ <div class="chip" style="top:625px">3년간 보험료 할인</div>
+ <div class="lead" style="top:705px">5세대로 바꾸면 3년간 보험료 절반</div>
+ <div class="sub" style="top:760px;right:420px;font-size:29px">일부 초기 1·2세대 가입자 대상이에요.<br>보장 범위 변화도 같이 봐요.</div>
+ <img class="ic" src="e3d/1f4b8.webp" style="top:400px;width:300px">
+ <div class="rule" style="bottom:150px"></div>
+ <div class="src">이달 중 시행 예정 · 파이낸셜뉴스 11.12 · 금융위원회</div>
  <div class="ft"><span>BARUM 바름지점</span><span>1 / 4</span></div>
 </section>
 
-<!-- 핵심 · 숫자 -->
-<section class="c key">
+<!-- 핵심 숫자 -->
+<section class="c fin">
  <div class="tag">누가 해당될까요</div>
- <div class="t">1·2세대 실손<br><span class="y">가입자라면</span></div>
- <div class="big" style="font-size:250px">1,600<small>만 명</small></div>
- <img class="ic" src="e3d/1f46a.webp" style="right:46px;top:740px;width:220px;transform:rotate(-6deg)">
- <div class="src">대상권 추산 · 6개월 운영 뒤 연장 검토 · 파이낸셜뉴스 11.12</div>
+ <div class="t">1·2세대 실손<br><span class="b">가입자라면</span></div>
+ <div class="big" style="top:420px;font-size:180px">1,600<small>만 명</small></div>
+ <div class="sub" style="top:640px;right:400px">6개월 운영한 뒤<br>연장 여부를 검토해요.</div>
+ <img class="ic" src="e3d/1f46a.webp" style="top:580px;width:260px">
+ <div class="src">대상권 추산 · 파이낸셜뉴스 11.12</div>
  <div class="ft"><span>BARUM 바름지점</span><span>2 / 4</span></div>
 </section>
 
-<!-- 바뀌는 점 · 비교: 흰 상자 줄 2~3개 -->
-<section class="c warn">
+<!-- 바뀌는 점: 흰 상자 줄 -->
+<section class="c life">
  <div class="tag">대신 달라지는 점</div>
- <div class="t">싸지는 만큼<br><span class="y">보장도</span> 바뀌어요</div>
- <div class="box">
+ <div class="t">싸지는 만큼<br><span class="b">보장도 바뀌어요</span></div>
+ <div class="box" style="top:430px">
   <div class="row"><span>비중증 비급여 자기부담</span><b>50%</b></div>
   <div class="row"><span>비중증 비급여 연간 한도</span><b>1,000만원</b></div>
  </div>
- <img class="ic" src="e3d/2696-fe0f.webp" style="right:80px;top:800px;width:170px;transform:rotate(10deg)">
+ <img class="ic" src="e3d/2696-fe0f.webp" style="top:700px;width:220px">
  <div class="src">5세대 실손 기준 · 상품별로 달라요</div>
  <div class="ft"><span>BARUM 바름지점</span><span>3 / 4</span></div>
 </section>
 
 <!-- 마지막 정리 -->
-<section class="c end">
+<section class="c save">
  <div class="tag">정리</div>
- <div class="t s">바꿀지 말지는<br><span class="y">병원 가는 습관</span>부터</div>
- <div class="box" style="right:300px">자주 가면 <b>지금 실손</b>,<br>거의 안 가면 <b>보험료</b>가<br>더 중요할 수 있어요.</div>
- <img class="ic" src="e3d/1f91d.webp" style="right:40px;top:520px;width:280px;transform:rotate(-8deg)">
- <div class="end1">같이 확인해 드릴게요.</div>
- <div class="end2">언제나, 늘 곁에</div>
+ <div class="t">바꿀지 말지는<br><span class="b">병원 가는 습관부터</span></div>
+ <div class="sub" style="top:430px;right:400px">자주 가면 지금 실손이,<br>거의 안 가면 보험료가<br>더 중요할 수 있어요.</div>
+ <img class="ic" src="e3d/1f91d.webp" style="top:470px">
+ <div class="end1">몇 세대인지, <span style="color:#3182F6">같이 확인해 드릴게요.</span></div>
+ <div class="src" style="bottom:110px">언제나, 늘 곁에</div>
  <div class="ft"><span>BARUM 바름지점</span><span>4 / 4</span></div>
 </section>
 </body></html>
