@@ -1,0 +1,100 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<!-- BARUM NEWS 카드 정본 「프리미엄 생활정보」 v2 (GPT 3D 일러스트 18종 = cardstyle/art/) · 2026.11.14 지점장 「하자 · 지금 이미지 너무 좋다」(GPT 시안 4장을 HTML 로 옮김)
+     규칙 = cardstyle/README.md. 이 파일을 복사해 섹션 글·그림만 바꾼다. CSS 는 고치지 않는다. -->
+<style>
+@font-face{font-family:'Pretendard';font-weight:500;src:url('../../../cardstyle/fonts/Pretendard-Medium.woff2') format('woff2')}
+@font-face{font-family:'Pretendard';font-weight:600;src:url('../../../cardstyle/fonts/Pretendard-SemiBold.woff2') format('woff2')}
+@font-face{font-family:'Pretendard';font-weight:700;src:url('../../../cardstyle/fonts/Pretendard-Bold.woff2') format('woff2')}
+@font-face{font-family:'Pretendard';font-weight:800;src:url('../../../cardstyle/fonts/Pretendard-ExtraBold.woff2') format('woff2')}
+@font-face{font-family:'Pretendard';font-weight:900;src:url('../../../cardstyle/fonts/Pretendard-Black.woff2') format('woff2')}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Pretendard','Noto Sans CJK KR','Noto Sans KR',sans-serif;word-break:keep-all;background:#777}
+.c{width:1080px;height:1080px;position:relative;overflow:hidden;margin-bottom:20px;color:#191F28;
+ background:linear-gradient(165deg,#E3F0FF 0%,#F4F9FF 48%,#FBFDFF 100%)}
+.c.peach{background:linear-gradient(165deg,#FFF0E2 0%,#FFF8F1 46%,#FBFDFF 100%)}
+.c.mint{background:linear-gradient(165deg,#E3F6EE 0%,#F3FAFF 50%,#FBFDFF 100%)}
+/* 구름 */
+.c::before,.c::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.85);filter:blur(6px);z-index:0}
+.c::before{width:1500px;height:620px;left:-210px;bottom:-330px;background:rgba(214,232,255,.55);filter:none}
+.c::after{width:560px;height:200px;right:-160px;bottom:150px;background:rgba(255,255,255,.8)}
+.c>*{z-index:1}
+.tag{position:absolute;left:60px;top:58px;display:flex;align-items:center;gap:12px;background:#2F7BF0;color:#fff;font-weight:800;font-size:40px;padding:14px 34px 14px 20px;border-radius:999px;letter-spacing:-1px}
+.tag::after{content:"";position:absolute;left:34px;bottom:-14px;border:14px solid transparent;border-top-color:#2F7BF0;border-bottom:0}
+.c.mint .tag::after{border-top-color:#D8F3E7}
+.tag img{width:46px;height:46px}
+.c.mint .tag{background:#D8F3E7;color:#0E7A55}
+.c.peach .tag{background:#2F7BF0}
+.date{position:absolute;right:60px;top:66px;display:flex;align-items:center;gap:10px;background:#E1EAF5;color:#333D4B;font-size:32px;font-weight:700;padding:10px 26px;border-radius:999px}
+.date img{width:40px}
+.spark{position:absolute;width:70px;height:60px}
+.spark i{position:absolute;width:8px;border-radius:4px;background:#5AA8FF}
+.spark i:nth-child(1){height:30px;left:8px;top:22px;transform:rotate(-40deg)}
+.spark i:nth-child(2){height:36px;left:30px;top:6px}
+.spark i:nth-child(3){height:30px;left:52px;top:22px;transform:rotate(40deg)}
+.spark.y i{background:#FFC93C}
+.t{position:absolute;left:60px;right:60px;top:160px;font-weight:900;font-size:96px;line-height:1.12;letter-spacing:-3.5px}
+.t.s{font-size:84px}
+.t .b{color:#1875E8}
+.big{position:absolute;left:50px;font-weight:900;font-size:250px;line-height:1;letter-spacing:-10px;
+ background:linear-gradient(180deg,#5BB0FF 0%,#2A7BF2 45%,#0F4FD1 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 10px 0 rgba(15,79,209,.18))}
+.big small{font-size:.5em;letter-spacing:-3px;margin-left:6px}
+.swoosh{position:absolute;height:44px;border-radius:50%;border-bottom:16px solid #CFE3FF;transform:rotate(-3deg)}
+.bar{position:absolute;left:60px;background:#EEF2F8;border-radius:22px;padding:16px 30px;font-size:40px;font-weight:800;letter-spacing:-1px}
+.chk{position:absolute;left:60px;display:flex;gap:18px;font-size:44px;font-weight:700;line-height:1.4;letter-spacing:-1px}
+.chk::before{content:"✓";flex:none;width:46px;height:46px;border-radius:10px;background:#2F7BF0;color:#fff;font-size:32px;font-weight:900;display:grid;place-items:center;margin-top:6px}
+.sub{position:absolute;left:60px;font-size:42px;font-weight:600;line-height:1.45;color:#333D4B;letter-spacing:-1px}
+.info{position:absolute;left:46px;width:770px;background:#fff;border-radius:30px;padding:14px 32px;box-shadow:0 12px 34px rgba(31,94,180,.10)}
+.info .r{display:flex;align-items:center;gap:22px;padding:22px 0}
+.info .r+.r{border-top:2px solid #E8EEF6}
+.info .r img{width:84px;flex:none}
+.info .r span{flex:1;font-size:38px;font-weight:700;line-height:1.3;letter-spacing:-1px}
+.info .r b{flex:none;background:#E7F1FF;color:#1660E8;font-size:58px;font-weight:900;padding:6px 22px;border-radius:18px;letter-spacing:-2px}
+.ans{position:absolute;left:60px;display:flex;align-items:center;gap:18px;background:#E7F1FF;border-radius:28px;padding:24px 34px;font-size:42px;font-weight:800;line-height:1.35;letter-spacing:-1px}
+.ans::before{content:"✓";flex:none;width:52px;height:52px;border-radius:50%;background:#2F7BF0;color:#fff;font-size:32px;font-weight:900;display:grid;place-items:center}
+.ic{position:absolute}
+.src{position:absolute;left:60px;right:430px;font-size:28px;font-weight:500;color:#6B7684;line-height:1.45}
+.ft{position:absolute;left:-40px;right:-40px;bottom:0;height:96px;border-radius:60% 60% 0 0/40px 40px 0 0;background:#E1ECFC;padding-left:100px!important;padding-right:100px!important;display:flex;align-items:center;justify-content:space-between;padding:0 60px;font-size:34px;font-weight:800;color:#191F28}
+.ft .n{display:flex;align-items:center;gap:26px;font-weight:700}
+.ft .n::before{content:"";width:2px;height:36px;background:#9BB4D6}
+.ft .lv{display:flex;align-items:center;gap:12px}
+.ft .lv img{width:44px}
+</style></head><body>
+<section class="c">
+ <div class="tag">오늘 공부</div><div class="date">2026.11.14</div>
+ <div class="t">뇌 진단비,<br>이름마다 <span class="b">범위가 달라요</span></div>
+ <div class="bar" style="top:480px">뇌출혈 · 뇌졸중 · 뇌혈관질환</div>
+ <div class="sub" style="top:590px">같은 「뇌」 보장이어도<br>담보 이름에 따라<br>받는 범위가 달라요</div>
+ <div class="src" style="top:830px">진단비 이름별 보장 범위 · 상품별로 달라요 · KB의 생각</div>
+ <img class="ic" src="../../../cardstyle/art/brain.webp" style="right:50px;top:420px;width:340px" alt="">
+ <img class="ic" src="../../../cardstyle/art/doc_search.webp" style="right:250px;top:690px;width:180px" alt="">
+ <img class="ic" src="../../../cardstyle/art/stethoscope.webp" style="right:40px;top:700px;width:200px" alt="">
+ <div class="ft"><span>BARUM 바름지점</span><span class="n">1/4</span></div></section>
+<section class="c mint">
+ <div class="tag">① 뇌출혈 진단비</div>
+ <div class="t s" style="top:170px">터진 혈관만 받아요</div>
+ <div class="swoosh" style="left:36px;top:478px;width:600px"></div>
+ <div class="big" style="top:290px;font-size:196px;letter-spacing:-6px">I60<small>~I62</small></div>
+ <div class="chk" style="top:570px">뇌경색(I63)은<br>여기서 빠져요</div>
+ <div class="src" style="top:800px">질병코드 기준 · 상품별로 달라요 · KB의 생각</div>
+ <img class="ic" src="../../../cardstyle/art/brain.webp" style="right:40px;top:480px;width:320px" alt="">
+ <img class="ic" src="../../../cardstyle/art/checklist.webp" style="right:300px;top:700px;width:160px;transform:rotate(-6deg)" alt="">
+ <div class="ft"><span>BARUM 바름지점</span><span class="n">2/4</span></div></section>
+<section class="c peach">
+ <div class="tag">② 뇌졸중 · ③ 뇌혈관질환</div>
+ <div class="t">넓을수록<br><span class="b">더 많이</span> 받쳐 줘요</div>
+ <div class="info" style="top:480px">
+  <div class="r"><img src="../../../cardstyle/art/brain.webp" alt=""><span>뇌졸중<br>= 뇌출혈 + 뇌경색</span><b>I60~I63</b></div>
+  <div class="r"><img src="../../../cardstyle/art/hospital.webp" alt=""><span>뇌혈관질환<br>= 전체</span><b>I60~I69</b></div>
+ </div>
+ <div class="src" style="top:880px">뇌졸중은 I65·I66 포함 · 상품별로 달라요 · KB의 생각</div>
+ <img class="ic" src="../../../cardstyle/art/shield_coin.webp" style="right:60px;top:740px;width:220px" alt="">
+ <div class="ft"><span>BARUM 바름지점</span><span class="n">3/4</span></div></section>
+<section class="c">
+ <div class="tag">정리</div>
+ <div class="t">증권에서<br><span class="b">담보 이름</span>부터 봐요</div>
+ <div class="sub" style="top:480px">같은 뇌 보장도<br>이름마다 받는 범위가<br>달라요</div>
+ <div class="ans" style="top:760px">증권 담보명,<br>같이 확인해 드릴게요</div>
+ <img class="ic" src="../../../cardstyle/art/doc_search.webp" style="right:60px;top:430px;width:300px" alt="">
+ <img class="ic" src="../../../cardstyle/art/hand_point.webp" style="right:40px;top:740px;width:200px;transform:scaleX(-1)" alt="">
+ <div class="ft"><span>언제나, 늘 곁에 · BARUM 바름지점</span><span class="n">4/4</span></div></section>
+</body></html>
