@@ -1,0 +1,63 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<!-- BARUM NEWS 카드 정본 (유튜브 색감) · 2026.11.14 지점장 확정 「하자」
+     규칙 = cardstyle/README.md. 이 파일을 복사해 섹션 글만 바꾼다. CSS 는 고치지 않는다.
+     그림 경로: 이 파일을 cardstyle/ 안에서 열면 e3d/xxxx.webp 그대로, 다른 폴더면 ../cardstyle/e3d/ 처럼 맞춘다. -->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans CJK KR','Noto Sans KR',sans-serif;word-break:keep-all;background:#222}
+.c{width:1080px;height:1080px;position:relative;overflow:hidden;margin-bottom:20px}
+/* 바탕색 = 역할로 고정(장마다 마음대로 바꾸지 않는다) */
+.c.cover{background:#00A86B}   /* 1장 표지 */
+.c.key{background:#2F6BFF}     /* 핵심 · 숫자 */
+.c.warn{background:#FF6B2C}    /* 바뀌는 점 · 주의 · 비교 */
+.c.end{background:#172554}     /* 마지막 정리 */
+.tag{position:absolute;left:64px;top:60px;background:#111;color:#fff;font-weight:900;font-size:40px;padding:14px 30px;border-radius:999px;letter-spacing:-1px}
+.c.end .tag{background:#FFE14D;color:#111}
+.t{position:absolute;left:64px;right:64px;top:150px;font-weight:900;font-size:112px;line-height:1.12;letter-spacing:-5px;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill}
+.t.s{font-size:96px;letter-spacing:-4px}
+.t .y{color:#FFE14D}
+.big{position:absolute;left:56px;top:470px;font-weight:900;color:#FFE14D;-webkit-text-stroke:16px #111;paint-order:stroke fill;letter-spacing:-12px;line-height:1;font-size:300px}
+.big small{font-size:.38em;letter-spacing:-3px;color:#fff}
+.ic{position:absolute;filter:drop-shadow(0 18px 0 rgba(0,0,0,.18))}
+.box{position:absolute;left:64px;right:64px;top:500px;background:#fff;border:7px solid #111;border-radius:34px;padding:30px 36px;font-size:40px;font-weight:700;color:#191F28;line-height:1.45;letter-spacing:-1px}
+.box b{font-weight:900}
+.row{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:44px;font-weight:800;padding:10px 0}
+.row+.row{border-top:4px dashed #D1D6DB}
+.row b{font-size:64px;color:#E8344E;font-weight:900;letter-spacing:-2px}
+/* 출처 줄: 숫자가 있는 장은 반드시 — 「조건 · 매체 MM.DD」 */
+.src{position:absolute;left:66px;right:66px;bottom:118px;font-size:28px;font-weight:700;color:rgba(255,255,255,.95)}
+.end1{position:absolute;left:66px;bottom:200px;font-size:40px;font-weight:900;color:#fff}
+.end2{position:absolute;left:66px;bottom:128px;font-size:34px;font-weight:900;color:#FFE14D}
+.ft{position:absolute;left:0;right:0;bottom:0;height:92px;background:#111;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 64px;font-size:34px;font-weight:900;letter-spacing:-.5px}
+.ft span:last-child{color:#FFE14D}
+</style></head><body>
+<section class="c cover">
+ <div class="tag">오늘의 추천 영상</div>
+ <div class="t">뇌 진단비<br><span class="y">영상으로</span> 봐요</div>
+ <div class="big">2<small>편</small></div>
+ <img class="ic" src="../../../cardstyle/e3d/1f3ac.webp" style="right:50px;top:470px;width:380px;transform:rotate(8deg)">
+ <div class="src">유튜브 검색 결과의 제목으로 고른 영상 · 공식 자료와 같이 봐요</div>
+ <div class="ft"><span>BARUM 바름지점</span><span>1 / 4</span></div></section>
+<section class="c key">
+ <div class="tag">영상 ①</div>
+ <div class="t s">뇌출혈 · 뇌경색 ·<br><span class="y">뇌졸중</span> 차이</div>
+ <div class="box" style="right:330px">진단비 <b>세 가지</b>의<br>보장 범위를<br>나란히 비교해요.</div>
+ <img class="ic" src="../../../cardstyle/e3d/1f9e0.webp" style="right:40px;top:560px;width:250px;transform:rotate(-6deg)">
+ <div class="src">뇌혈관질환보험 보장범위 총정리 · 유튜브</div>
+ <div class="ft"><span>BARUM 바름지점</span><span>2 / 4</span></div></section>
+<section class="c warn">
+ <div class="tag">영상 ②</div>
+ <div class="t s">뇌 · 심장<br><span class="y">2대질병</span> 범위</div>
+ <div class="box" style="right:330px">뇌·심장 진단비<br>특약별 <b>범위 차이</b>를<br>함께 봐요.</div>
+ <img class="ic" src="../../../cardstyle/e3d/1fa7a.webp" style="right:50px;top:560px;width:240px;transform:rotate(8deg)">
+ <div class="src">2대질병 진단비 특약의 보장 범위 차이 · 유튜브</div>
+ <div class="ft"><span>BARUM 바름지점</span><span>3 / 4</span></div></section>
+<section class="c end">
+ <div class="tag">정리</div>
+ <div class="t s">영상 보고<br><span class="y">내 증권</span>도 봐요</div>
+ <div class="box" style="right:300px">내용은 회사·상품마다<br>다를 수 있어요.<br><b>공식 자료</b>와 같이 봐요.</div>
+ <img class="ic" src="../../../cardstyle/e3d/1f4cc.webp" style="right:60px;top:540px;width:230px;transform:rotate(-8deg)">
+ <div class="end1">내 증권, 같이 확인해 드릴게요.</div>
+ <div class="end2">언제나, 늘 곁에</div>
+ <div class="ft"><span>BARUM 바름지점</span><span>4 / 4</span></div></section>
+</body></html>
