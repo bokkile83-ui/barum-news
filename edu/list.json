@@ -286,7 +286,7 @@
 },
 {
 "id": "cov_b_sp",
-"title": "산정특례",
+"title": "산정특례 (뇌혈관)",
 "desc": "담보 · 뇌 치료비 · 28초",
 "file": "cov_b_sp.mp4",
 "poster": "cov_b_sp.jpg",
@@ -313,7 +313,7 @@
 },
 {
 "id": "cov_h_sp",
-"title": "산정특례",
+"title": "산정특례 (심장)",
 "desc": "담보 · 심장 치료비 · 28초",
 "file": "cov_h_sp.mp4",
 "poster": "cov_h_sp.jpg",
@@ -394,7 +394,7 @@
 },
 {
 "id": "cov_dr_bail_p",
-"title": "교통사고 벌금",
+"title": "교통사고 벌금 (대인)",
 "desc": "담보 · 운전자 · 28초",
 "file": "cov_dr_bail_p.mp4",
 "poster": "cov_dr_bail_p.jpg",
@@ -412,7 +412,7 @@
 },
 {
 "id": "cov_dr_bail_m",
-"title": "교통사고 벌금",
+"title": "교통사고 벌금 (대물)",
 "desc": "담보 · 운전자 · 28초",
 "file": "cov_dr_bail_m.mp4",
 "poster": "cov_dr_bail_m.jpg",
@@ -430,7 +430,7 @@
 },
 {
 "id": "cov_dr_settle",
-"title": "교통사고처리지원금",
+"title": "교통사고처리지원금 (합의금)",
 "desc": "담보 · 운전자 · 28초",
 "file": "cov_dr_settle.mp4",
 "poster": "cov_dr_settle.jpg",
@@ -439,7 +439,7 @@
 },
 {
 "id": "cov_dr_6w",
-"title": "교통사고처리지원금",
+"title": "교통사고처리지원금 (6주 미만)",
 "desc": "담보 · 운전자 · 28초",
 "file": "cov_dr_6w.mp4",
 "poster": "cov_dr_6w.jpg",
