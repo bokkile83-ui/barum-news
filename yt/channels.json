@@ -1,0 +1,31 @@
+{
+  "channels": [
+    {
+      "handle": "@보험명의정닥터",
+      "name": "보험명의 정닥터",
+      "channel_id": "UC1oBpjjwMp0WGBfdg-0a5qQ",
+      "uploads": "UU1oBpjjwMp0WGBfdg-0a5qQ"
+    },
+    {
+      "handle": "@bohum_exit",
+      "name": "보험탈출구",
+      "channel_id": "UCzEDsOXNyRDe5Wxr8HnrhXA",
+      "uploads": "UUzEDsOXNyRDe5Wxr8HnrhXA"
+    },
+    {
+      "handle": "@yoonsungmin-win",
+      "name": "보험팩폭",
+      "channel_id": "UC3kUuXlDy7Z2rtIFEgOS-3w",
+      "uploads": "UU3kUuXlDy7Z2rtIFEgOS-3w"
+    }
+  ],
+  "extra": [],
+  "used": [
+    {
+      "id": "NnSdbAPu1IA",
+      "channel": "보험탈출구",
+      "d": "2026-11-16"
+    }
+  ],
+  "last_channel": "보험탈출구"
+}
