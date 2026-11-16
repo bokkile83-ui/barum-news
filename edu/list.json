@@ -8,7 +8,7 @@
 "file": "01_surgery_cost.mp4",
 "poster": "01_surgery_cost.jpg",
 "dur": 49,
-"cat": "기본"
+"cat": "수술"
 },
 {
 "id": "02_sanjeong",
@@ -17,7 +17,7 @@
 "file": "02_sanjeong.mp4",
 "poster": "02_sanjeong.jpg",
 "dur": 37,
-"cat": "기본"
+"cat": "건강보험 제도"
 },
 {
 "id": "03_jong15",
@@ -26,7 +26,7 @@
 "file": "03_jong15.mp4",
 "poster": "03_jong15.jpg",
 "dur": 41,
-"cat": "기본"
+"cat": "수술"
 },
 {
 "id": "04_silson_gen",
@@ -35,7 +35,7 @@
 "file": "04_silson_gen.mp4",
 "poster": "04_silson_gen.jpg",
 "dur": 69,
-"cat": "기본"
+"cat": "실손"
 },
 {
 "id": "05_geupyeo_2026",
@@ -44,7 +44,7 @@
 "file": "05_geupyeo_2026.mp4",
 "poster": "05_geupyeo_2026.jpg",
 "dur": 32,
-"cat": "기본"
+"cat": "건강보험 제도"
 },
 {
 "id": "cov_cov_cancer",
@@ -182,15 +182,6 @@
 "cat": "암"
 },
 {
-"id": "cov_c_ci",
-"title": "중대한 암",
-"desc": "담보 · 암 · 28초",
-"file": "cov_c_ci.mp4",
-"poster": "cov_c_ci.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
 "id": "cov_c_surg",
 "title": "암수술",
 "desc": "담보 · 암 치료 · 18초",
@@ -206,7 +197,7 @@
 "file": "cov_b_cva.mp4",
 "poster": "cov_b_cva.jpg",
 "dur": 23,
-"cat": "뇌"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_b_stroke",
@@ -215,7 +206,7 @@
 "file": "cov_b_stroke.mp4",
 "poster": "cov_b_stroke.jpg",
 "dur": 28,
-"cat": "뇌"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_b_hem",
@@ -224,7 +215,7 @@
 "file": "cov_b_hem.mp4",
 "poster": "cov_b_hem.jpg",
 "dur": 28,
-"cat": "뇌"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_b_sp",
@@ -233,25 +224,7 @@
 "file": "cov_b_sp.mp4",
 "poster": "cov_b_sp.jpg",
 "dur": 28,
-"cat": "뇌"
-},
-{
-"id": "cov_b_ci_stroke",
-"title": "중대한 뇌졸증",
-"desc": "담보 · 뇌 진단비 · 28초",
-"file": "cov_b_ci_stroke.mp4",
-"poster": "cov_b_ci_stroke.jpg",
-"dur": 28,
-"cat": "뇌"
-},
-{
-"id": "cov_b_ci_hem",
-"title": "중대한 뇌출혈",
-"desc": "담보 · 뇌 진단비 · 28초",
-"file": "cov_b_ci_hem.mp4",
-"poster": "cov_b_ci_hem.jpg",
-"dur": 28,
-"cat": "뇌"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_b_trauma",
@@ -260,7 +233,7 @@
 "file": "cov_b_trauma.mp4",
 "poster": "cov_b_trauma.jpg",
 "dur": 28,
-"cat": "뇌"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_tachy",
@@ -269,7 +242,7 @@
 "file": "cov_h_tachy.mp4",
 "poster": "cov_h_tachy.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_arr",
@@ -278,7 +251,7 @@
 "file": "cov_h_arr.mp4",
 "poster": "cov_h_arr.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_hf",
@@ -287,7 +260,7 @@
 "file": "cov_h_hf.mp4",
 "poster": "cov_h_hf.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_inf",
@@ -296,7 +269,7 @@
 "file": "cov_h_inf.mp4",
 "poster": "cov_h_inf.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_cmp",
@@ -305,7 +278,7 @@
 "file": "cov_h_cmp.mp4",
 "poster": "cov_h_cmp.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_valve",
@@ -314,7 +287,7 @@
 "file": "cov_h_valve.mp4",
 "poster": "cov_h_valve.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_angina",
@@ -323,7 +296,7 @@
 "file": "cov_h_angina.mp4",
 "poster": "cov_h_angina.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_cov_heart",
@@ -332,7 +305,7 @@
 "file": "cov_cov_heart.mp4",
 "poster": "cov_cov_heart.jpg",
 "dur": 23,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_ami",
@@ -341,7 +314,7 @@
 "file": "cov_h_ami.mp4",
 "poster": "cov_h_ami.jpg",
 "dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_h_sp",
@@ -350,16 +323,7 @@
 "file": "cov_h_sp.mp4",
 "poster": "cov_h_sp.jpg",
 "dur": 28,
-"cat": "심장"
-},
-{
-"id": "cov_h_ci_ami",
-"title": "중대한 급성심근",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_ci_ami.mp4",
-"poster": "cov_h_ci_ami.jpg",
-"dur": 28,
-"cat": "심장"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_bh_tpa",
@@ -368,7 +332,7 @@
 "file": "cov_bh_tpa.mp4",
 "poster": "cov_bh_tpa.jpg",
 "dur": 28,
-"cat": "뇌·심 치료"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_bh_2major",
@@ -377,7 +341,7 @@
 "file": "cov_bh_2major.mp4",
 "poster": "cov_bh_2major.jpg",
 "dur": 28,
-"cat": "뇌·심 치료"
+"cat": "뇌·심장"
 },
 {
 "id": "cov_s_dis",
@@ -566,7 +530,7 @@
 "file": "cov_i_surg_d.mp4",
 "poster": "cov_i_surg_d.jpg",
 "dur": 18,
-"cat": "입원·일당"
+"cat": "수술"
 },
 {
 "id": "cov_i_surg_a",
@@ -575,7 +539,7 @@
 "file": "cov_i_surg_a.mp4",
 "poster": "cov_i_surg_a.jpg",
 "dur": 18,
-"cat": "입원·일당"
+"cat": "수술"
 },
 {
 "id": "cov_dr_bail_p",
@@ -584,7 +548,7 @@
 "file": "cov_dr_bail_p.mp4",
 "poster": "cov_dr_bail_p.jpg",
 "dur": 28,
-"cat": "운전자"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_dr_bail_m",
@@ -593,7 +557,7 @@
 "file": "cov_dr_bail_m.mp4",
 "poster": "cov_dr_bail_m.jpg",
 "dur": 28,
-"cat": "운전자"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_dr_settle",
@@ -602,7 +566,7 @@
 "file": "cov_dr_settle.mp4",
 "poster": "cov_dr_settle.jpg",
 "dur": 28,
-"cat": "운전자"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_dr_6w",
@@ -611,7 +575,7 @@
 "file": "cov_dr_6w.mp4",
 "poster": "cov_dr_6w.jpg",
 "dur": 28,
-"cat": "운전자"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_dr_lawyer",
@@ -620,7 +584,7 @@
 "file": "cov_dr_lawyer.mp4",
 "poster": "cov_dr_lawyer.jpg",
 "dur": 28,
-"cat": "운전자"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_dr_injury",
@@ -629,34 +593,7 @@
 "file": "cov_dr_injury.mp4",
 "poster": "cov_dr_injury.jpg",
 "dur": 28,
-"cat": "운전자"
-},
-{
-"id": "cov_f_crown",
-"title": "치아 보철치료비",
-"desc": "담보 · 화재 · 치아 · 28초",
-"file": "cov_f_crown.mp4",
-"poster": "cov_f_crown.jpg",
-"dur": 28,
-"cat": "치아·화재"
-},
-{
-"id": "cov_f_implant",
-"title": "임플란트치료비",
-"desc": "담보 · 화재 · 치아 · 28초",
-"file": "cov_f_implant.mp4",
-"poster": "cov_f_implant.jpg",
-"dur": 28,
-"cat": "치아·화재"
-},
-{
-"id": "cov_f_etc",
-"title": "치아 기타",
-"desc": "담보 · 화재 · 치아 · 28초",
-"file": "cov_f_etc.mp4",
-"poster": "cov_f_etc.jpg",
-"dur": 28,
-"cat": "치아·화재"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_f_fire",
@@ -665,16 +602,7 @@
 "file": "cov_f_fire.mp4",
 "poster": "cov_f_fire.jpg",
 "dur": 28,
-"cat": "치아·화재"
-},
-{
-"id": "cov_m_ci",
-"title": "중대한CI적용",
-"desc": "담보 · 사망 · 28초",
-"file": "cov_m_ci.mp4",
-"poster": "cov_m_ci.jpg",
-"dur": 28,
-"cat": "사망·CI"
+"cat": "사고·운전자"
 },
 {
 "id": "cov_m_traffic",
@@ -683,7 +611,7 @@
 "file": "cov_m_traffic.mp4",
 "poster": "cov_m_traffic.jpg",
 "dur": 28,
-"cat": "사망·CI"
+"cat": "사망·종신·CI"
 }
 ]
 }
