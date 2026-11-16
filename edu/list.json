@@ -40,6 +40,645 @@
 "file": "05_geupyeo_2026.mp4",
 "poster": "05_geupyeo_2026.jpg",
 "dur": 32
+},
+{
+"id": "cov_cov_cancer",
+"title": "암진단비",
+"desc": "담보 · 암 진단비 · 23초",
+"file": "cov_cov_cancer.mp4",
+"poster": "cov_cov_cancer.jpg",
+"dur": 23,
+"cat": "담보"
+},
+{
+"id": "cov_b_cva",
+"title": "뇌혈관질환진단비",
+"desc": "담보 · 뇌 진단비 · 23초",
+"file": "cov_b_cva.mp4",
+"poster": "cov_b_cva.jpg",
+"dur": 23,
+"cat": "담보"
+},
+{
+"id": "cov_c_high",
+"title": "고액암진단비",
+"desc": "담보 · 암 진단비 · 28초",
+"file": "cov_c_high.mp4",
+"poster": "cov_c_high.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_b_stroke",
+"title": "뇌졸중진단비",
+"desc": "담보 · 뇌 진단비 · 28초",
+"file": "cov_b_stroke.mp4",
+"poster": "cov_b_stroke.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_b_hem",
+"title": "뇌출혈진단비",
+"desc": "담보 · 뇌 진단비 · 28초",
+"file": "cov_b_hem.mp4",
+"poster": "cov_b_hem.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_small",
+"title": "소액암진단비",
+"desc": "담보 · 암 진단비 · 28초",
+"file": "cov_c_small.mp4",
+"poster": "cov_c_small.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_similar",
+"title": "유사암진단비",
+"desc": "담보 · 암 진단비 · 28초",
+"file": "cov_c_similar.mp4",
+"poster": "cov_c_similar.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_integ_dx",
+"title": "통합암진단비",
+"desc": "담보 · 암 진단비 · 23초",
+"file": "cov_c_integ_dx.mp4",
+"poster": "cov_c_integ_dx.jpg",
+"dur": 23,
+"cat": "담보"
+},
+{
+"id": "cov_h_tachy",
+"title": "발작성빈맥진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_tachy.mp4",
+"poster": "cov_h_tachy.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_meta",
+"title": "통합전이암진단비",
+"desc": "담보 · 암 진단비 · 28초",
+"file": "cov_c_meta.mp4",
+"poster": "cov_c_meta.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_arr",
+"title": "부정맥진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_arr.mp4",
+"poster": "cov_h_arr.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_hf",
+"title": "심부전진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_hf.mp4",
+"poster": "cov_h_hf.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_inf",
+"title": "주요심장염증진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_inf.mp4",
+"poster": "cov_h_inf.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_cmp",
+"title": "심근병증진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_cmp.mp4",
+"poster": "cov_h_cmp.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_valve",
+"title": "심장판막질환진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_valve.mp4",
+"poster": "cov_h_valve.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_chemo",
+"title": "항암방사선약물치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_chemo.mp4",
+"poster": "cov_c_chemo.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_angina",
+"title": "협심증진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_angina.mp4",
+"poster": "cov_h_angina.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_meta_tx",
+"title": "전이암 항암치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_meta_tx.mp4",
+"poster": "cov_c_meta_tx.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_cov_heart",
+"title": "허혈성심장질환진단비",
+"desc": "담보 · 심장 진단비 · 23초",
+"file": "cov_cov_heart.mp4",
+"poster": "cov_cov_heart.jpg",
+"dur": 23,
+"cat": "담보"
+},
+{
+"id": "cov_c_target",
+"title": "표적항암약물허가치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_target.mp4",
+"poster": "cov_c_target.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_proton",
+"title": "양성자 · 세기조절 방사선치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_proton.mp4",
+"poster": "cov_c_proton.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_ami",
+"title": "급성심근경색진단비",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_ami.mp4",
+"poster": "cov_h_ami.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_carbon",
+"title": "항암중입자방사선치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_carbon.mp4",
+"poster": "cov_c_carbon.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_outp",
+"title": "암 통원일당 · 암통원비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_outp.mp4",
+"poster": "cov_c_outp.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_robot",
+"title": "다빈치 로봇수술비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_robot.mp4",
+"poster": "cov_c_robot.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_major",
+"title": "암 주요치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_major.mp4",
+"poster": "cov_c_major.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_high_cls",
+"title": "하이클래스 암 주요치료비",
+"desc": "담보 · 암 치료비 · 28초",
+"file": "cov_c_high_cls.mp4",
+"poster": "cov_c_high_cls.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_b_sp",
+"title": "산정특례",
+"desc": "담보 · 뇌 치료비 · 28초",
+"file": "cov_b_sp.mp4",
+"poster": "cov_b_sp.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_bh_tpa",
+"title": "혈전용해치료비",
+"desc": "담보 · 뇌 치료비 · 28초",
+"file": "cov_bh_tpa.mp4",
+"poster": "cov_bh_tpa.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_bh_2major",
+"title": "2대주요치료비",
+"desc": "담보 · 심장 치료비 · 28초",
+"file": "cov_bh_2major.mp4",
+"poster": "cov_bh_2major.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_sp",
+"title": "산정특례",
+"desc": "담보 · 심장 치료비 · 28초",
+"file": "cov_h_sp.mp4",
+"poster": "cov_h_sp.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_dis",
+"title": "질병수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_dis.mp4",
+"poster": "cov_s_dis.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_dis_gen",
+"title": "종합병원 질병수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_dis_gen.mp4",
+"poster": "cov_s_dis_gen.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_13",
+"title": "1~3종 수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_13.mp4",
+"poster": "cov_s_13.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_cov_surg5",
+"title": "질병 1~5종 수술비",
+"desc": "담보 · 수술비 · 질병 · 23초",
+"file": "cov_cov_surg5.mp4",
+"poster": "cov_cov_surg5.jpg",
+"dur": 23,
+"cat": "담보"
+},
+{
+"id": "cov_s_17",
+"title": "질병 1~7종 수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_17.mp4",
+"poster": "cov_s_17.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_ndae",
+"title": "N대 질병수술비",
+"desc": "담보 · 수술비 · 질병 · 23초",
+"file": "cov_s_ndae.mp4",
+"poster": "cov_s_ndae.jpg",
+"dur": 23,
+"cat": "담보"
+},
+{
+"id": "cov_s_brain",
+"title": "뇌혈관질환수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_brain.mp4",
+"poster": "cov_s_brain.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_isch",
+"title": "허혈성심장질환수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_isch.mp4",
+"poster": "cov_s_isch.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_dr_bail_p",
+"title": "교통사고 벌금",
+"desc": "담보 · 운전자 · 28초",
+"file": "cov_dr_bail_p.mp4",
+"poster": "cov_dr_bail_p.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_heart",
+"title": "심장질환수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_heart.mp4",
+"poster": "cov_s_heart.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_dr_bail_m",
+"title": "교통사고 벌금",
+"desc": "담보 · 운전자 · 28초",
+"file": "cov_dr_bail_m.mp4",
+"poster": "cov_dr_bail_m.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_5organ",
+"title": "5대기관 수술비",
+"desc": "담보 · 수술비 · 질병 · 28초",
+"file": "cov_s_5organ.mp4",
+"poster": "cov_s_5organ.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_dr_settle",
+"title": "교통사고처리지원금",
+"desc": "담보 · 운전자 · 28초",
+"file": "cov_dr_settle.mp4",
+"poster": "cov_dr_settle.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_dr_6w",
+"title": "교통사고처리지원금",
+"desc": "담보 · 운전자 · 28초",
+"file": "cov_dr_6w.mp4",
+"poster": "cov_dr_6w.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_dr_lawyer",
+"title": "변호사선임비용",
+"desc": "담보 · 운전자 · 28초",
+"file": "cov_dr_lawyer.mp4",
+"poster": "cov_dr_lawyer.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_dr_injury",
+"title": "자동차사고 부상치료비",
+"desc": "담보 · 운전자 · 28초",
+"file": "cov_dr_injury.mp4",
+"poster": "cov_dr_injury.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_inj",
+"title": "상해수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_inj.mp4",
+"poster": "cov_s_inj.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_inj_gen",
+"title": "종합병원 상해수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_inj_gen.mp4",
+"poster": "cov_s_inj_gen.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_inj13",
+"title": "상해 1~3종 수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_inj13.mp4",
+"poster": "cov_s_inj13.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_inj15",
+"title": "상해 1~5종 수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_inj15.mp4",
+"poster": "cov_s_inj15.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_inj17",
+"title": "상해 1~7종 수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_inj17.mp4",
+"poster": "cov_s_inj17.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_frac",
+"title": "골절수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_frac.mp4",
+"poster": "cov_s_frac.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_frac5",
+"title": "5대골절 수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_frac5.mp4",
+"poster": "cov_s_frac5.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_f_crown",
+"title": "치아 보철치료비",
+"desc": "담보 · 화재 · 치아 · 28초",
+"file": "cov_f_crown.mp4",
+"poster": "cov_f_crown.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_burn",
+"title": "화상수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_burn.mp4",
+"poster": "cov_s_burn.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_f_implant",
+"title": "임플란트치료비",
+"desc": "담보 · 화재 · 치아 · 28초",
+"file": "cov_f_implant.mp4",
+"poster": "cov_f_implant.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_major_inj",
+"title": "중대한 상해수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_major_inj.mp4",
+"poster": "cov_s_major_inj.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_f_etc",
+"title": "치아 기타",
+"desc": "담보 · 화재 · 치아 · 28초",
+"file": "cov_f_etc.mp4",
+"poster": "cov_f_etc.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_s_wound",
+"title": "창상봉합수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_wound.mp4",
+"poster": "cov_s_wound.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_f_fire",
+"title": "화재보험",
+"desc": "담보 · 화재 · 치아 · 28초",
+"file": "cov_f_fire.mp4",
+"poster": "cov_f_fire.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_m_ci",
+"title": "중대한CI적용",
+"desc": "담보 · 사망 · 28초",
+"file": "cov_m_ci.mp4",
+"poster": "cov_m_ci.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_m_traffic",
+"title": "교통상해사망",
+"desc": "담보 · 사망 · 28초",
+"file": "cov_m_traffic.mp4",
+"poster": "cov_m_traffic.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_ci",
+"title": "중대한 암",
+"desc": "담보 · 암 · 28초",
+"file": "cov_c_ci.mp4",
+"poster": "cov_c_ci.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_c_surg",
+"title": "암수술",
+"desc": "담보 · 암 치료 · 18초",
+"file": "cov_c_surg.mp4",
+"poster": "cov_c_surg.jpg",
+"dur": 18,
+"cat": "담보"
+},
+{
+"id": "cov_b_ci_stroke",
+"title": "중대한 뇌졸증",
+"desc": "담보 · 뇌 진단비 · 28초",
+"file": "cov_b_ci_stroke.mp4",
+"poster": "cov_b_ci_stroke.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_b_ci_hem",
+"title": "중대한 뇌출혈",
+"desc": "담보 · 뇌 진단비 · 28초",
+"file": "cov_b_ci_hem.mp4",
+"poster": "cov_b_ci_hem.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_b_trauma",
+"title": "외상성뇌출혈",
+"desc": "담보 · 뇌 진단비 · 28초",
+"file": "cov_b_trauma.mp4",
+"poster": "cov_b_trauma.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_h_ci_ami",
+"title": "중대한 급성심근",
+"desc": "담보 · 심장 진단비 · 28초",
+"file": "cov_h_ci_ami.mp4",
+"poster": "cov_h_ci_ami.jpg",
+"dur": 28,
+"cat": "담보"
+},
+{
+"id": "cov_i_surg_d",
+"title": "질병수술일당",
+"desc": "담보 · 입원 · 18초",
+"file": "cov_i_surg_d.mp4",
+"poster": "cov_i_surg_d.jpg",
+"dur": 18,
+"cat": "담보"
+},
+{
+"id": "cov_i_surg_a",
+"title": "상해수술일당",
+"desc": "담보 · 입원 · 18초",
+"file": "cov_i_surg_a.mp4",
+"poster": "cov_i_surg_a.jpg",
+"dur": 18,
+"cat": "담보"
 }
 ]
 }
