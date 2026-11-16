@@ -542,60 +542,6 @@
 "cat": "수술"
 },
 {
-"id": "cov_dr_bail_p",
-"title": "교통사고 벌금 (대인)",
-"desc": "담보 · 운전자 · 28초",
-"file": "cov_dr_bail_p.mp4",
-"poster": "cov_dr_bail_p.jpg",
-"dur": 28,
-"cat": "사고·운전자"
-},
-{
-"id": "cov_dr_bail_m",
-"title": "교통사고 벌금 (대물)",
-"desc": "담보 · 운전자 · 28초",
-"file": "cov_dr_bail_m.mp4",
-"poster": "cov_dr_bail_m.jpg",
-"dur": 28,
-"cat": "사고·운전자"
-},
-{
-"id": "cov_dr_settle",
-"title": "교통사고처리지원금 (합의금)",
-"desc": "담보 · 운전자 · 28초",
-"file": "cov_dr_settle.mp4",
-"poster": "cov_dr_settle.jpg",
-"dur": 28,
-"cat": "사고·운전자"
-},
-{
-"id": "cov_dr_6w",
-"title": "교통사고처리지원금 (6주 미만)",
-"desc": "담보 · 운전자 · 28초",
-"file": "cov_dr_6w.mp4",
-"poster": "cov_dr_6w.jpg",
-"dur": 28,
-"cat": "사고·운전자"
-},
-{
-"id": "cov_dr_lawyer",
-"title": "변호사선임비용",
-"desc": "담보 · 운전자 · 28초",
-"file": "cov_dr_lawyer.mp4",
-"poster": "cov_dr_lawyer.jpg",
-"dur": 28,
-"cat": "사고·운전자"
-},
-{
-"id": "cov_dr_injury",
-"title": "자동차사고 부상치료비",
-"desc": "담보 · 운전자 · 28초",
-"file": "cov_dr_injury.mp4",
-"poster": "cov_dr_injury.jpg",
-"dur": 28,
-"cat": "사고·운전자"
-},
-{
 "id": "cov_f_fire",
 "title": "화재보험",
 "desc": "담보 · 화재 · 치아 · 28초",
