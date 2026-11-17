@@ -58,28 +58,28 @@
 {
 "id": "cov_cov_cancer",
 "title": "암진단비",
-"desc": "담보 · 암 진단비 · 32초",
+"desc": "담보 · 암 진단비 · 31초",
 "file": "cov_cov_cancer.mp4",
 "poster": "cov_cov_cancer.jpg",
-"dur": 32,
+"dur": 31,
 "cat": "암"
 },
 {
 "id": "cov_c_high",
 "title": "고액암진단비",
-"desc": "담보 · 암 진단비 · 46초",
+"desc": "담보 · 암 진단비 · 42초",
 "file": "cov_c_high.mp4",
 "poster": "cov_c_high.jpg",
-"dur": 46,
+"dur": 42,
 "cat": "암"
 },
 {
 "id": "cov_c_small",
 "title": "소액암진단비",
-"desc": "담보 · 암 진단비 · 40초",
+"desc": "담보 · 암 진단비 · 39초",
 "file": "cov_c_small.mp4",
 "poster": "cov_c_small.jpg",
-"dur": 40,
+"dur": 39,
 "cat": "암"
 },
 {
@@ -112,10 +112,10 @@
 {
 "id": "cov_c_chemo",
 "title": "항암방사선약물치료비",
-"desc": "담보 · 암 치료비 · 35초",
+"desc": "담보 · 암 치료비 · 37초",
 "file": "cov_c_chemo.mp4",
 "poster": "cov_c_chemo.jpg",
-"dur": 35,
+"dur": 37,
 "cat": "암"
 },
 {
@@ -148,10 +148,10 @@
 {
 "id": "cov_c_carbon",
 "title": "항암중입자방사선치료비",
-"desc": "담보 · 암 치료비 · 31초",
+"desc": "담보 · 암 치료비 · 32초",
 "file": "cov_c_carbon.mp4",
 "poster": "cov_c_carbon.jpg",
-"dur": 31,
+"dur": 32,
 "cat": "암"
 },
 {
@@ -265,10 +265,10 @@
 {
 "id": "cov_bh_tpa",
 "title": "혈전용해치료비",
-"desc": "담보 · 뇌 치료비 · 42초",
+"desc": "담보 · 뇌 치료비 · 41초",
 "file": "cov_bh_tpa.mp4",
 "poster": "cov_bh_tpa.jpg",
-"dur": 42,
+"dur": 41,
 "cat": "뇌·심장"
 },
 {
