@@ -227,6 +227,15 @@
 "cat": "뇌·심장"
 },
 {
+"id": "m_circ",
+"title": "순환계, 2대질병과 뭐가 달라요?",
+"desc": "뇌·심장 · 62초",
+"file": "m_circ.mp4",
+"poster": "m_circ.jpg",
+"dur": 62,
+"cat": "뇌·심장"
+},
+{
 "id": "lib_brain",
 "title": "뇌",
 "desc": "터지는 것보다 막히는 게 훨씬 많다 · 74초",
