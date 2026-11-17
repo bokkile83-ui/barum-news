@@ -2,6 +2,15 @@
 "updated": "2026-11-17",
 "videos": [
 {
+"id": "m_cancer_dx",
+"title": "암 진단비, 분류표로 봐요",
+"desc": "암 · 65초",
+"file": "m_cancer_dx.mp4",
+"poster": "m_cancer_dx.jpg",
+"dur": 65,
+"cat": "암"
+},
+{
 "id": "lib_c_integ",
 "title": "통합치료비",
 "desc": "세부보장항목 — 항목마다 지급 방식 · 금액이 다르 · 17초",
