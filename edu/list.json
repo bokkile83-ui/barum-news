@@ -2,6 +2,195 @@
 "updated": "2026-11-17",
 "videos": [
 {
+"id": "lib_c_integ",
+"title": "통합치료비",
+"desc": "세부보장항목 — 항목마다 지급 방식 · 금액이 다르 · 17초",
+"file": "lib_c_integ.mp4",
+"poster": "lib_c_integ.jpg",
+"dur": 17,
+"cat": "암"
+},
+{
+"id": "lib_c_prepay",
+"title": "선납 치료",
+"desc": "보험금은 치료 뒤에 나온다 — 고객이 먼저 들고 있 · 21초",
+"file": "lib_c_prepay.mp4",
+"poster": "lib_c_prepay.jpg",
+"dur": 21,
+"cat": "암"
+},
+{
+"id": "lib_c_radio",
+"title": "방사선 · 약물",
+"desc": "방사선치료는 수술이 아니다 — 담보가 따로 · 23초",
+"file": "lib_c_radio.mp4",
+"poster": "lib_c_radio.jpg",
+"dur": 23,
+"cat": "암"
+},
+{
+"id": "lib_c_surgery",
+"title": "암 수술 방법",
+"desc": "관혈 · 비관혈 · 로봇 · 복강경 — 종수와 함께 · 21초",
+"file": "lib_c_surgery.mp4",
+"poster": "lib_c_surgery.jpg",
+"dur": 21,
+"cat": "암"
+},
+{
+"id": "lib_cancer",
+"title": "암 진단비",
+"desc": "일반암 100% · 유사암 일부 — 약관 분류로 갈 · 78초",
+"file": "lib_cancer.mp4",
+"poster": "lib_cancer.jpg",
+"dur": 78,
+"cat": "암"
+},
+{
+"id": "lib_chiryo_c",
+"title": "암 치료비",
+"desc": "진단비 시대 Out · 치료비 시대 In · 72초",
+"file": "lib_chiryo_c.mp4",
+"poster": "lib_chiryo_c.jpg",
+"dur": 72,
+"cat": "암"
+},
+{
+"id": "cov_cov_cancer",
+"title": "암진단비",
+"desc": "담보 · 암 진단비 · 32초",
+"file": "cov_cov_cancer.mp4",
+"poster": "cov_cov_cancer.jpg",
+"dur": 32,
+"cat": "암"
+},
+{
+"id": "cov_c_high",
+"title": "고액암진단비",
+"desc": "담보 · 암 진단비 · 46초",
+"file": "cov_c_high.mp4",
+"poster": "cov_c_high.jpg",
+"dur": 46,
+"cat": "암"
+},
+{
+"id": "cov_c_small",
+"title": "소액암진단비",
+"desc": "담보 · 암 진단비 · 40초",
+"file": "cov_c_small.mp4",
+"poster": "cov_c_small.jpg",
+"dur": 40,
+"cat": "암"
+},
+{
+"id": "cov_c_similar",
+"title": "유사암진단비",
+"desc": "담보 · 암 진단비 · 39초",
+"file": "cov_c_similar.mp4",
+"poster": "cov_c_similar.jpg",
+"dur": 39,
+"cat": "암"
+},
+{
+"id": "cov_c_integ_dx",
+"title": "통합암진단비",
+"desc": "담보 · 암 진단비 · 33초",
+"file": "cov_c_integ_dx.mp4",
+"poster": "cov_c_integ_dx.jpg",
+"dur": 33,
+"cat": "암"
+},
+{
+"id": "cov_c_meta",
+"title": "통합전이암진단비",
+"desc": "담보 · 암 진단비 · 37초",
+"file": "cov_c_meta.mp4",
+"poster": "cov_c_meta.jpg",
+"dur": 37,
+"cat": "암"
+},
+{
+"id": "cov_c_chemo",
+"title": "항암방사선약물치료비",
+"desc": "담보 · 암 치료비 · 35초",
+"file": "cov_c_chemo.mp4",
+"poster": "cov_c_chemo.jpg",
+"dur": 35,
+"cat": "암"
+},
+{
+"id": "cov_c_meta_tx",
+"title": "전이암 항암치료비",
+"desc": "담보 · 암 치료비 · 34초",
+"file": "cov_c_meta_tx.mp4",
+"poster": "cov_c_meta_tx.jpg",
+"dur": 34,
+"cat": "암"
+},
+{
+"id": "cov_c_target",
+"title": "표적항암약물허가치료비",
+"desc": "담보 · 암 치료비 · 36초",
+"file": "cov_c_target.mp4",
+"poster": "cov_c_target.jpg",
+"dur": 36,
+"cat": "암"
+},
+{
+"id": "m_surg_bh",
+"title": "뇌혈관 · 허혈성 · 심장 수술비, 뭐가 다를까요?",
+"desc": "뇌·심장 · 53초",
+"file": "m_surg_bh.mp4",
+"poster": "m_surg_bh.jpg",
+"dur": 53,
+"cat": "뇌·심장"
+},
+{
+"id": "m_brain_dx",
+"title": "뇌출혈 · 뇌졸중 · 뇌혈관 진단비, 뭐가 다를까요?",
+"desc": "뇌·심장 · 67초",
+"file": "m_brain_dx.mp4",
+"poster": "m_brain_dx.jpg",
+"dur": 67,
+"cat": "뇌·심장"
+},
+{
+"id": "m_heart_dx",
+"title": "심장 진단비, 분류표로 봐요",
+"desc": "뇌·심장 · 74초",
+"file": "m_heart_dx.mp4",
+"poster": "m_heart_dx.jpg",
+"dur": 74,
+"cat": "뇌·심장"
+},
+{
+"id": "lib_brain",
+"title": "뇌",
+"desc": "터지는 것보다 막히는 게 훨씬 많다 · 74초",
+"file": "lib_brain.mp4",
+"poster": "lib_brain.jpg",
+"dur": 74,
+"cat": "뇌·심장"
+},
+{
+"id": "lib_chiryo_h",
+"title": "뇌심 치료비",
+"desc": "진단비 한 번으로 안 끝난다 — 시술 · 재발 ·  · 79초",
+"file": "lib_chiryo_h.mp4",
+"poster": "lib_chiryo_h.jpg",
+"dur": 79,
+"cat": "뇌·심장"
+},
+{
+"id": "lib_heart",
+"title": "심장",
+"desc": "급성심근경색은 9%뿐 — 심장 전체를 봐야 한다 · 70초",
+"file": "lib_heart.mp4",
+"poster": "lib_heart.jpg",
+"dur": 70,
+"cat": "뇌·심장"
+},
+{
 "id": "01_surgery_cost",
 "title": "수술 한 번에 얼마나 들까요?",
 "desc": "건강보험공단 통계로 보는 수술 1건 진료비 · 49초",
@@ -11,21 +200,30 @@
 "cat": "수술"
 },
 {
-"id": "02_sanjeong",
-"title": "병원비 내 몫, 20%에서 5%로?",
-"desc": "중증질환 산정특례 — 암 · 뇌 · 심장 · 희귀 · 37초",
-"file": "02_sanjeong.mp4",
-"poster": "02_sanjeong.jpg",
-"dur": 37,
-"cat": "건강보험 제도"
+"id": "m_jong",
+"title": "1~3종 · 1~5종 · 1~7종 수술비, 뭐가 다를까요?",
+"desc": "수술 · 99초",
+"file": "m_jong.mp4",
+"poster": "m_jong.jpg",
+"dur": 99,
+"cat": "수술"
 },
 {
-"id": "03_jong15",
-"title": "질병 1~5종 수술비, 숫자의 의미는?",
-"desc": "종마다 어떤 수술인지 · 41초",
-"file": "03_jong15.mp4",
-"poster": "03_jong15.jpg",
-"dur": 41,
+"id": "m_surg_di",
+"title": "질병수술비 · 상해수술비 — 범위와 지급 조건",
+"desc": "수술 · 66초",
+"file": "m_surg_di.mp4",
+"poster": "m_surg_di.jpg",
+"dur": 66,
+"cat": "수술"
+},
+{
+"id": "lib_surgery",
+"title": "수술비",
+"desc": "수술비는 5가지 — 기본 · N대 · 1~5종 ·  · 68초",
+"file": "lib_surgery.mp4",
+"poster": "lib_surgery.jpg",
+"dur": 68,
 "cat": "수술"
 },
 {
@@ -38,6 +236,51 @@
 "cat": "실손"
 },
 {
+"id": "lib_dosu",
+"title": "도수 · 체외충격파",
+"desc": "도수 = 관리급여(강제) · 충격파 = 자율 가이드 · 57초",
+"file": "lib_dosu.mp4",
+"poster": "lib_dosu.jpg",
+"dur": 57,
+"cat": "실손"
+},
+{
+"id": "lib_injmed",
+"title": "상해의료비",
+"desc": "자기부담 0원 · 입통원 구분 없음 — 대신 180 · 61초",
+"file": "lib_injmed.mp4",
+"poster": "lib_injmed.jpg",
+"dur": 61,
+"cat": "실손"
+},
+{
+"id": "lib_s5",
+"title": "5세대 실손",
+"desc": "급여 + 중증 + 비중증 3층 — 비중증은 50%  · 159초",
+"file": "lib_s5.mp4",
+"poster": "lib_s5.jpg",
+"dur": 159,
+"cat": "실손"
+},
+{
+"id": "lib_silson",
+"title": "실손",
+"desc": "언젠가는 바꾸게 될 보험 — 세대가 보장을 정한다 · 61초",
+"file": "lib_silson.mp4",
+"poster": "lib_silson.jpg",
+"dur": 61,
+"cat": "실손"
+},
+{
+"id": "02_sanjeong",
+"title": "병원비 내 몫, 20%에서 5%로?",
+"desc": "중증질환 산정특례 — 암 · 뇌 · 심장 · 희귀 · 37초",
+"file": "02_sanjeong.mp4",
+"poster": "02_sanjeong.jpg",
+"dur": 37,
+"cat": "건강보험 제도"
+},
+{
 "id": "05_geupyeo_2026",
 "title": "그 약, 아직도 비급여예요?",
 "desc": "2026년 급여로 바뀐 암 신약 · 뇌 심장 · 32초",
@@ -47,517 +290,184 @@
 "cat": "건강보험 제도"
 },
 {
-"id": "cov_cov_cancer",
-"title": "암진단비",
-"desc": "담보 · 암 진단비 · 23초",
-"file": "cov_cov_cancer.mp4",
-"poster": "cov_cov_cancer.jpg",
+"id": "lib_sanjeong",
+"title": "산정특례",
+"desc": "뇌·심장은 최대 30일 — 진단비로 매년 받는다 · 57초",
+"file": "lib_sanjeong.mp4",
+"poster": "lib_sanjeong.jpg",
+"dur": 57,
+"cat": "건강보험 제도"
+},
+{
+"id": "lib_wegovy",
+"title": "위고비 · 마운자로",
+"desc": "비만 치료 목적이면 실손 보상 안 됨 · 23초",
+"file": "lib_wegovy.mp4",
+"poster": "lib_wegovy.jpg",
 "dur": 23,
-"cat": "암"
+"cat": "건강보험 제도"
 },
 {
-"id": "cov_c_high",
-"title": "고액암진단비",
-"desc": "담보 · 암 진단비 · 28초",
-"file": "cov_c_high.mp4",
-"poster": "cov_c_high.jpg",
-"dur": 28,
-"cat": "암"
+"id": "lib_dementia",
+"title": "치매",
+"desc": "경도인지장애 → 치매 · CDR 척도로 단계가 정해 · 56초",
+"file": "lib_dementia.mp4",
+"poster": "lib_dementia.jpg",
+"dur": 56,
+"cat": "간병·치매"
 },
 {
-"id": "cov_c_small",
-"title": "소액암진단비",
-"desc": "담보 · 암 진단비 · 28초",
-"file": "cov_c_small.mp4",
-"poster": "cov_c_small.jpg",
-"dur": 28,
-"cat": "암"
+"id": "lib_gan",
+"title": "간병인",
+"desc": "지원 vs 사용일당 · 40초",
+"file": "lib_gan.mp4",
+"poster": "lib_gan.jpg",
+"dur": 40,
+"cat": "간병·치매"
 },
 {
-"id": "cov_c_similar",
-"title": "유사암진단비",
-"desc": "담보 · 암 진단비 · 28초",
-"file": "cov_c_similar.mp4",
-"poster": "cov_c_similar.jpg",
-"dur": 28,
-"cat": "암"
+"id": "lib_ltc",
+"title": "장기요양",
+"desc": "방문조사 52개 항목 → 점수로 1~5등급 · 인지 · 54초",
+"file": "lib_ltc.mp4",
+"poster": "lib_ltc.jpg",
+"dur": 54,
+"cat": "간병·치매"
 },
 {
-"id": "cov_c_integ_dx",
-"title": "통합암진단비",
-"desc": "담보 · 암 진단비 · 23초",
-"file": "cov_c_integ_dx.mp4",
-"poster": "cov_c_integ_dx.jpg",
-"dur": 23,
-"cat": "암"
-},
-{
-"id": "cov_c_meta",
-"title": "통합전이암진단비",
-"desc": "담보 · 암 진단비 · 28초",
-"file": "cov_c_meta.mp4",
-"poster": "cov_c_meta.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_chemo",
-"title": "항암방사선약물치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_chemo.mp4",
-"poster": "cov_c_chemo.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_meta_tx",
-"title": "전이암 항암치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_meta_tx.mp4",
-"poster": "cov_c_meta_tx.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_target",
-"title": "표적항암약물허가치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_target.mp4",
-"poster": "cov_c_target.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_proton",
-"title": "양성자 · 세기조절 방사선치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_proton.mp4",
-"poster": "cov_c_proton.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_carbon",
-"title": "항암중입자방사선치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_carbon.mp4",
-"poster": "cov_c_carbon.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_outp",
-"title": "암 통원일당 · 암통원비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_outp.mp4",
-"poster": "cov_c_outp.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_robot",
-"title": "다빈치 로봇수술비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_robot.mp4",
-"poster": "cov_c_robot.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_major",
-"title": "암 주요치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_major.mp4",
-"poster": "cov_c_major.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_high_cls",
-"title": "하이클래스 암 주요치료비",
-"desc": "담보 · 암 치료비 · 28초",
-"file": "cov_c_high_cls.mp4",
-"poster": "cov_c_high_cls.jpg",
-"dur": 28,
-"cat": "암"
-},
-{
-"id": "cov_c_surg",
-"title": "암수술",
-"desc": "담보 · 암 치료 · 18초",
-"file": "cov_c_surg.mp4",
-"poster": "cov_c_surg.jpg",
-"dur": 18,
-"cat": "암"
-},
-{
-"id": "cov_b_cva",
-"title": "뇌혈관질환진단비",
-"desc": "담보 · 뇌 진단비 · 23초",
-"file": "cov_b_cva.mp4",
-"poster": "cov_b_cva.jpg",
-"dur": 23,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_b_stroke",
-"title": "뇌졸중진단비",
-"desc": "담보 · 뇌 진단비 · 28초",
-"file": "cov_b_stroke.mp4",
-"poster": "cov_b_stroke.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_b_hem",
-"title": "뇌출혈진단비",
-"desc": "담보 · 뇌 진단비 · 28초",
-"file": "cov_b_hem.mp4",
-"poster": "cov_b_hem.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_b_sp",
-"title": "산정특례 (뇌혈관)",
-"desc": "담보 · 뇌 치료비 · 28초",
-"file": "cov_b_sp.mp4",
-"poster": "cov_b_sp.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_b_trauma",
-"title": "외상성뇌출혈",
-"desc": "담보 · 뇌 진단비 · 28초",
-"file": "cov_b_trauma.mp4",
-"poster": "cov_b_trauma.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_tachy",
-"title": "발작성빈맥진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_tachy.mp4",
-"poster": "cov_h_tachy.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_arr",
-"title": "부정맥진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_arr.mp4",
-"poster": "cov_h_arr.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_hf",
-"title": "심부전진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_hf.mp4",
-"poster": "cov_h_hf.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_inf",
-"title": "주요심장염증진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_inf.mp4",
-"poster": "cov_h_inf.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_cmp",
-"title": "심근병증진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_cmp.mp4",
-"poster": "cov_h_cmp.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_valve",
-"title": "심장판막질환진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_valve.mp4",
-"poster": "cov_h_valve.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_angina",
-"title": "협심증진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_angina.mp4",
-"poster": "cov_h_angina.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_cov_heart",
-"title": "허혈성심장질환진단비",
-"desc": "담보 · 심장 진단비 · 23초",
-"file": "cov_cov_heart.mp4",
-"poster": "cov_cov_heart.jpg",
-"dur": 23,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_ami",
-"title": "급성심근경색진단비",
-"desc": "담보 · 심장 진단비 · 28초",
-"file": "cov_h_ami.mp4",
-"poster": "cov_h_ami.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_h_sp",
-"title": "산정특례 (심장)",
-"desc": "담보 · 심장 치료비 · 28초",
-"file": "cov_h_sp.mp4",
-"poster": "cov_h_sp.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_bh_tpa",
-"title": "혈전용해치료비",
-"desc": "담보 · 뇌 치료비 · 28초",
-"file": "cov_bh_tpa.mp4",
-"poster": "cov_bh_tpa.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_bh_2major",
-"title": "2대주요치료비",
-"desc": "담보 · 심장 치료비 · 28초",
-"file": "cov_bh_2major.mp4",
-"poster": "cov_bh_2major.jpg",
-"dur": 28,
-"cat": "뇌·심장"
-},
-{
-"id": "cov_s_dis",
-"title": "질병수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_dis.mp4",
-"poster": "cov_s_dis.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_dis_gen",
-"title": "종합병원 질병수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_dis_gen.mp4",
-"poster": "cov_s_dis_gen.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_13",
-"title": "1~3종 수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_13.mp4",
-"poster": "cov_s_13.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_cov_surg5",
-"title": "질병 1~5종 수술비",
-"desc": "담보 · 수술비 · 질병 · 23초",
-"file": "cov_cov_surg5.mp4",
-"poster": "cov_cov_surg5.jpg",
-"dur": 23,
-"cat": "수술"
-},
-{
-"id": "cov_s_17",
-"title": "질병 1~7종 수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_17.mp4",
-"poster": "cov_s_17.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_ndae",
-"title": "N대 질병수술비",
-"desc": "담보 · 수술비 · 질병 · 23초",
-"file": "cov_s_ndae.mp4",
-"poster": "cov_s_ndae.jpg",
-"dur": 23,
-"cat": "수술"
-},
-{
-"id": "cov_s_brain",
-"title": "뇌혈관질환수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_brain.mp4",
-"poster": "cov_s_brain.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_isch",
-"title": "허혈성심장질환수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_isch.mp4",
-"poster": "cov_s_isch.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_heart",
-"title": "심장질환수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_heart.mp4",
-"poster": "cov_s_heart.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_5organ",
-"title": "5대기관 수술비",
-"desc": "담보 · 수술비 · 질병 · 28초",
-"file": "cov_s_5organ.mp4",
-"poster": "cov_s_5organ.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_inj",
-"title": "상해수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_inj.mp4",
-"poster": "cov_s_inj.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_inj_gen",
-"title": "종합병원 상해수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_inj_gen.mp4",
-"poster": "cov_s_inj_gen.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_inj13",
-"title": "상해 1~3종 수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_inj13.mp4",
-"poster": "cov_s_inj13.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_inj15",
-"title": "상해 1~5종 수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_inj15.mp4",
-"poster": "cov_s_inj15.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_inj17",
-"title": "상해 1~7종 수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_inj17.mp4",
-"poster": "cov_s_inj17.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_frac",
-"title": "골절수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_frac.mp4",
-"poster": "cov_s_frac.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_frac5",
-"title": "5대골절 수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_frac5.mp4",
-"poster": "cov_s_frac5.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_burn",
-"title": "화상수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_burn.mp4",
-"poster": "cov_s_burn.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_major_inj",
-"title": "중대한 상해수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_major_inj.mp4",
-"poster": "cov_s_major_inj.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_s_wound",
-"title": "창상봉합수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_wound.mp4",
-"poster": "cov_s_wound.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_i_surg_d",
-"title": "질병수술일당",
-"desc": "담보 · 입원 · 18초",
-"file": "cov_i_surg_d.mp4",
-"poster": "cov_i_surg_d.jpg",
-"dur": 18,
-"cat": "수술"
-},
-{
-"id": "cov_i_surg_a",
-"title": "상해수술일당",
-"desc": "담보 · 입원 · 18초",
-"file": "cov_i_surg_a.mp4",
-"poster": "cov_i_surg_a.jpg",
-"dur": 18,
-"cat": "수술"
-},
-{
-"id": "cov_f_fire",
-"title": "화재보험",
-"desc": "담보 · 화재 · 치아 · 28초",
-"file": "cov_f_fire.mp4",
-"poster": "cov_f_fire.jpg",
-"dur": 28,
+"id": "lib_disab",
+"title": "후유장해",
+"desc": "13개 부위 · 가입금액 × 지급률 · 부위별 매회 · 58초",
+"file": "lib_disab.mp4",
+"poster": "lib_disab.jpg",
+"dur": 58,
 "cat": "사고·운전자"
 },
 {
-"id": "cov_m_traffic",
-"title": "교통상해사망",
-"desc": "담보 · 사망 · 28초",
-"file": "cov_m_traffic.mp4",
-"poster": "cov_m_traffic.jpg",
-"dur": 28,
+"id": "lib_driver",
+"title": "운전자",
+"desc": "처벌은 세지고 담보는 커졌다 — 가입 시점이 금액이 · 73초",
+"file": "lib_driver.mp4",
+"poster": "lib_driver.jpg",
+"dur": 73,
+"cat": "사고·운전자"
+},
+{
+"id": "lib_ilbae",
+"title": "일상생활배상",
+"desc": "1억 한도 · 대물 자기부담금 20만 · 누수는 아 · 54초",
+"file": "lib_ilbae.mp4",
+"poster": "lib_ilbae.jpg",
+"dur": 54,
+"cat": "사고·운전자"
+},
+{
+"id": "lib_ci",
+"title": "CI보험",
+"desc": "「중대한」 약관 정의를 모두 채워야 나온다 · 71초",
+"file": "lib_ci.mp4",
+"poster": "lib_ci.jpg",
+"dur": 71,
 "cat": "사망·종신·CI"
+},
+{
+"id": "lib_death",
+"title": "사망",
+"desc": "일반 · 질병 · 재해 · 상해 — 원인에 따라 갈 · 55초",
+"file": "lib_death.mp4",
+"poster": "lib_death.jpg",
+"dur": 55,
+"cat": "사망·종신·CI"
+},
+{
+"id": "lib_fetal",
+"title": "태아보험",
+"desc": "임신 초기 가입 · 태아 특약은 22주 6일까지 · 61초",
+"file": "lib_fetal.mp4",
+"poster": "lib_fetal.jpg",
+"dur": 61,
+"cat": "치아·태아"
+},
+{
+"id": "lib_tooth",
+"title": "치아",
+"desc": "보존(때우기 · 씌우기) vs 보철(임플란트 · 브 · 55초",
+"file": "lib_tooth.mp4",
+"poster": "lib_tooth.jpg",
+"dur": 55,
+"cat": "치아·태아"
+},
+{
+"id": "lib_combo",
+"title": "복합설계",
+"desc": "보험사마다 강한 담보만 골라 담는다 · 47초",
+"file": "lib_combo.mp4",
+"poster": "lib_combo.jpg",
+"dur": 47,
+"cat": "상담 기본"
+},
+{
+"id": "lib_family",
+"title": "가족과 보험",
+"desc": "순탄한 인생 → 갑자기 → 그때 보험이 답한다 · 42초",
+"file": "lib_family.mp4",
+"poster": "lib_family.jpg",
+"dur": 42,
+"cat": "상담 기본"
+},
+{
+"id": "lib_goji",
+"title": "고지의무",
+"desc": "3개월 · 1년 · 5년 — 청약일 기준으로 알린다 · 66초",
+"file": "lib_goji.mp4",
+"poster": "lib_goji.jpg",
+"dur": 66,
+"cat": "상담 기본"
+},
+{
+"id": "lib_hidden",
+"title": "숨은보험금 찾기",
+"desc": "청구해야 나온다 — 3년 안에, 8군데에서 · 112초",
+"file": "lib_hidden.mp4",
+"poster": "lib_hidden.jpg",
+"dur": 112,
+"cat": "상담 기본"
+},
+{
+"id": "lib_plan",
+"title": "가입플랜",
+"desc": "일반형 vs 저해지 vs 무해지 · 51초",
+"file": "lib_plan.mp4",
+"poster": "lib_plan.jpg",
+"dur": 51,
+"cat": "상담 기본"
+},
+{
+"id": "lib_ren",
+"title": "갱신형 vs 비갱신형",
+"desc": "두 길 그리기 · 32초",
+"file": "lib_ren.mp4",
+"poster": "lib_ren.jpg",
+"dur": 32,
+"cat": "상담 기본"
+},
+{
+"id": "lib_start",
+"title": "첫 상담",
+"desc": "가족 · 생활비 · 은퇴날을 먼저 묻는다 — 상품은 · 66초",
+"file": "lib_start.mp4",
+"poster": "lib_start.jpg",
+"dur": 66,
+"cat": "상담 기본"
+},
+{
+"id": "lib_structure",
+"title": "보험금 구조",
+"desc": "치료 흐름마다 담보가 따로 — 우선순위는 실손부터 · 64초",
+"file": "lib_structure.mp4",
+"poster": "lib_structure.jpg",
+"dur": 64,
+"cat": "상담 기본"
 }
 ]
 }
