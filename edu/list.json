@@ -137,6 +137,69 @@
 "cat": "암"
 },
 {
+"id": "cov_c_proton",
+"title": "양성자 · 세기조절 방사선치료비",
+"desc": "담보 · 암 치료비 · 31초",
+"file": "cov_c_proton.mp4",
+"poster": "cov_c_proton.jpg",
+"dur": 31,
+"cat": "암"
+},
+{
+"id": "cov_c_carbon",
+"title": "항암중입자방사선치료비",
+"desc": "담보 · 암 치료비 · 31초",
+"file": "cov_c_carbon.mp4",
+"poster": "cov_c_carbon.jpg",
+"dur": 31,
+"cat": "암"
+},
+{
+"id": "cov_c_outp",
+"title": "암 통원일당 · 암통원비",
+"desc": "담보 · 암 치료비 · 34초",
+"file": "cov_c_outp.mp4",
+"poster": "cov_c_outp.jpg",
+"dur": 34,
+"cat": "암"
+},
+{
+"id": "cov_c_robot",
+"title": "다빈치 로봇수술비",
+"desc": "담보 · 암 치료비 · 34초",
+"file": "cov_c_robot.mp4",
+"poster": "cov_c_robot.jpg",
+"dur": 34,
+"cat": "암"
+},
+{
+"id": "cov_c_major",
+"title": "암 주요치료비",
+"desc": "담보 · 암 치료비 · 39초",
+"file": "cov_c_major.mp4",
+"poster": "cov_c_major.jpg",
+"dur": 39,
+"cat": "암"
+},
+{
+"id": "cov_c_high_cls",
+"title": "하이클래스 암 주요치료비",
+"desc": "담보 · 암 치료비 · 36초",
+"file": "cov_c_high_cls.mp4",
+"poster": "cov_c_high_cls.jpg",
+"dur": 36,
+"cat": "암"
+},
+{
+"id": "cov_c_surg",
+"title": "암수술",
+"desc": "담보 · 암 치료 · 27초",
+"file": "cov_c_surg.mp4",
+"poster": "cov_c_surg.jpg",
+"dur": 27,
+"cat": "암"
+},
+{
 "id": "m_surg_bh",
 "title": "뇌혈관 · 허혈성 · 심장 수술비, 뭐가 다를까요?",
 "desc": "뇌·심장 · 53초",
@@ -191,6 +254,51 @@
 "cat": "뇌·심장"
 },
 {
+"id": "cov_b_sp",
+"title": "산정특례 (뇌혈관)",
+"desc": "담보 · 뇌 치료비 · 44초",
+"file": "cov_b_sp.mp4",
+"poster": "cov_b_sp.jpg",
+"dur": 44,
+"cat": "뇌·심장"
+},
+{
+"id": "cov_bh_tpa",
+"title": "혈전용해치료비",
+"desc": "담보 · 뇌 치료비 · 42초",
+"file": "cov_bh_tpa.mp4",
+"poster": "cov_bh_tpa.jpg",
+"dur": 42,
+"cat": "뇌·심장"
+},
+{
+"id": "cov_bh_2major",
+"title": "2대주요치료비",
+"desc": "담보 · 심장 치료비 · 41초",
+"file": "cov_bh_2major.mp4",
+"poster": "cov_bh_2major.jpg",
+"dur": 41,
+"cat": "뇌·심장"
+},
+{
+"id": "cov_h_sp",
+"title": "산정특례 (심장)",
+"desc": "담보 · 심장 치료비 · 39초",
+"file": "cov_h_sp.mp4",
+"poster": "cov_h_sp.jpg",
+"dur": 39,
+"cat": "뇌·심장"
+},
+{
+"id": "cov_b_trauma",
+"title": "외상성뇌출혈",
+"desc": "담보 · 뇌 진단비 · 36초",
+"file": "cov_b_trauma.mp4",
+"poster": "cov_b_trauma.jpg",
+"dur": 36,
+"cat": "뇌·심장"
+},
+{
 "id": "01_surgery_cost",
 "title": "수술 한 번에 얼마나 들까요?",
 "desc": "건강보험공단 통계로 보는 수술 1건 진료비 · 49초",
@@ -224,6 +332,87 @@
 "file": "lib_surgery.mp4",
 "poster": "lib_surgery.jpg",
 "dur": 68,
+"cat": "수술"
+},
+{
+"id": "cov_s_ndae",
+"title": "N대 질병수술비",
+"desc": "담보 · 수술비 · 질병 · 35초",
+"file": "cov_s_ndae.mp4",
+"poster": "cov_s_ndae.jpg",
+"dur": 35,
+"cat": "수술"
+},
+{
+"id": "cov_s_5organ",
+"title": "5대기관 수술비",
+"desc": "담보 · 수술비 · 질병 · 34초",
+"file": "cov_s_5organ.mp4",
+"poster": "cov_s_5organ.jpg",
+"dur": 34,
+"cat": "수술"
+},
+{
+"id": "cov_s_frac",
+"title": "골절수술비",
+"desc": "담보 · 수술비 · 상해 · 35초",
+"file": "cov_s_frac.mp4",
+"poster": "cov_s_frac.jpg",
+"dur": 35,
+"cat": "수술"
+},
+{
+"id": "cov_s_frac5",
+"title": "5대골절 수술비",
+"desc": "담보 · 수술비 · 상해 · 28초",
+"file": "cov_s_frac5.mp4",
+"poster": "cov_s_frac5.jpg",
+"dur": 28,
+"cat": "수술"
+},
+{
+"id": "cov_s_burn",
+"title": "화상수술비",
+"desc": "담보 · 수술비 · 상해 · 34초",
+"file": "cov_s_burn.mp4",
+"poster": "cov_s_burn.jpg",
+"dur": 34,
+"cat": "수술"
+},
+{
+"id": "cov_s_major_inj",
+"title": "중대한 상해수술비",
+"desc": "담보 · 수술비 · 상해 · 32초",
+"file": "cov_s_major_inj.mp4",
+"poster": "cov_s_major_inj.jpg",
+"dur": 32,
+"cat": "수술"
+},
+{
+"id": "cov_s_wound",
+"title": "창상봉합수술비",
+"desc": "담보 · 수술비 · 상해 · 34초",
+"file": "cov_s_wound.mp4",
+"poster": "cov_s_wound.jpg",
+"dur": 34,
+"cat": "수술"
+},
+{
+"id": "cov_i_surg_d",
+"title": "질병수술일당",
+"desc": "담보 · 입원 · 28초",
+"file": "cov_i_surg_d.mp4",
+"poster": "cov_i_surg_d.jpg",
+"dur": 28,
+"cat": "수술"
+},
+{
+"id": "cov_i_surg_a",
+"title": "상해수술일당",
+"desc": "담보 · 입원 · 28초",
+"file": "cov_i_surg_a.mp4",
+"poster": "cov_i_surg_a.jpg",
+"dur": 28,
 "cat": "수술"
 },
 {
@@ -362,6 +551,15 @@
 "cat": "사고·운전자"
 },
 {
+"id": "cov_f_fire",
+"title": "화재보험",
+"desc": "담보 · 화재 · 치아 · 33초",
+"file": "cov_f_fire.mp4",
+"poster": "cov_f_fire.jpg",
+"dur": 33,
+"cat": "사고·운전자"
+},
+{
 "id": "lib_ci",
 "title": "CI보험",
 "desc": "「중대한」 약관 정의를 모두 채워야 나온다 · 71초",
@@ -377,6 +575,15 @@
 "file": "lib_death.mp4",
 "poster": "lib_death.jpg",
 "dur": 55,
+"cat": "사망·종신·CI"
+},
+{
+"id": "cov_m_traffic",
+"title": "교통상해사망",
+"desc": "담보 · 사망 · 32초",
+"file": "cov_m_traffic.mp4",
+"poster": "cov_m_traffic.jpg",
+"dur": 32,
 "cat": "사망·종신·CI"
 },
 {
