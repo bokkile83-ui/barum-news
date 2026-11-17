@@ -11,39 +11,21 @@
 "cat": "암"
 },
 {
-"id": "lib_c_integ",
-"title": "통합치료비",
-"desc": "세부보장항목 — 항목마다 지급 방식 · 금액이 다르 · 17초",
-"file": "lib_c_integ.mp4",
-"poster": "lib_c_integ.jpg",
-"dur": 17,
+"id": "m_c_surg",
+"title": "암 수술 — 방법과 암수술비",
+"desc": "암 · 36초",
+"file": "m_c_surg.mp4",
+"poster": "m_c_surg.jpg",
+"dur": 36,
 "cat": "암"
 },
 {
-"id": "lib_c_prepay",
-"title": "선납 치료",
-"desc": "보험금은 치료 뒤에 나온다 — 고객이 먼저 들고 있 · 21초",
-"file": "lib_c_prepay.mp4",
-"poster": "lib_c_prepay.jpg",
-"dur": 21,
-"cat": "암"
-},
-{
-"id": "lib_c_radio",
-"title": "방사선 · 약물",
-"desc": "방사선치료는 수술이 아니다 — 담보가 따로 · 23초",
-"file": "lib_c_radio.mp4",
-"poster": "lib_c_radio.jpg",
-"dur": 23,
-"cat": "암"
-},
-{
-"id": "lib_c_surgery",
-"title": "암 수술 방법",
-"desc": "관혈 · 비관혈 · 로봇 · 복강경 — 종수와 함께 · 21초",
-"file": "lib_c_surgery.mp4",
-"poster": "lib_c_surgery.jpg",
-"dur": 21,
+"id": "m_c_tx",
+"title": "암 치료비 — 통합치료비 · 방사선 · 선납",
+"desc": "암 · 46초",
+"file": "m_c_tx.mp4",
+"poster": "m_c_tx.jpg",
+"dur": 46,
 "cat": "암"
 },
 {
@@ -200,15 +182,6 @@
 "cat": "암"
 },
 {
-"id": "cov_c_surg",
-"title": "암수술",
-"desc": "담보 · 암 치료 · 27초",
-"file": "cov_c_surg.mp4",
-"poster": "cov_c_surg.jpg",
-"dur": 27,
-"cat": "암"
-},
-{
 "id": "m_surg_bh",
 "title": "뇌혈관 · 허혈성 · 심장 수술비, 뭐가 다를까요?",
 "desc": "뇌·심장 · 53초",
@@ -344,6 +317,24 @@
 "cat": "수술"
 },
 {
+"id": "m_surg_day",
+"title": "질병 · 상해 수술일당",
+"desc": "수술 · 52초",
+"file": "m_surg_day.mp4",
+"poster": "m_surg_day.jpg",
+"dur": 52,
+"cat": "수술"
+},
+{
+"id": "m_frac",
+"title": "골절 · 5대골절 수술비",
+"desc": "수술 · 61초",
+"file": "m_frac.mp4",
+"poster": "m_frac.jpg",
+"dur": 61,
+"cat": "수술"
+},
+{
 "id": "lib_surgery",
 "title": "수술비",
 "desc": "수술비는 5가지 — 기본 · N대 · 1~5종 ·  · 68초",
@@ -371,24 +362,6 @@
 "cat": "수술"
 },
 {
-"id": "cov_s_frac",
-"title": "골절수술비",
-"desc": "담보 · 수술비 · 상해 · 35초",
-"file": "cov_s_frac.mp4",
-"poster": "cov_s_frac.jpg",
-"dur": 35,
-"cat": "수술"
-},
-{
-"id": "cov_s_frac5",
-"title": "5대골절 수술비",
-"desc": "담보 · 수술비 · 상해 · 28초",
-"file": "cov_s_frac5.mp4",
-"poster": "cov_s_frac5.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
 "id": "cov_s_burn",
 "title": "화상수술비",
 "desc": "담보 · 수술비 · 상해 · 34초",
@@ -413,24 +386,6 @@
 "file": "cov_s_wound.mp4",
 "poster": "cov_s_wound.jpg",
 "dur": 34,
-"cat": "수술"
-},
-{
-"id": "cov_i_surg_d",
-"title": "질병수술일당",
-"desc": "담보 · 입원 · 28초",
-"file": "cov_i_surg_d.mp4",
-"poster": "cov_i_surg_d.jpg",
-"dur": 28,
-"cat": "수술"
-},
-{
-"id": "cov_i_surg_a",
-"title": "상해수술일당",
-"desc": "담보 · 입원 · 28초",
-"file": "cov_i_surg_a.mp4",
-"poster": "cov_i_surg_a.jpg",
-"dur": 28,
 "cat": "수술"
 },
 {
@@ -548,15 +503,6 @@
 "file": "lib_sanjeong.mp4",
 "poster": "lib_sanjeong.jpg",
 "dur": 57,
-"cat": "건강보험 제도"
-},
-{
-"id": "lib_wegovy",
-"title": "위고비 · 마운자로",
-"desc": "비만 치료 목적이면 실손 보상 안 됨 · 23초",
-"file": "lib_wegovy.mp4",
-"poster": "lib_wegovy.jpg",
-"dur": 23,
 "cat": "건강보험 제도"
 },
 {
