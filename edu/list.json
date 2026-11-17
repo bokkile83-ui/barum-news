@@ -398,6 +398,15 @@
 "cat": "실손"
 },
 {
+"id": "m_silson",
+"title": "실손 — 세대 · 위고비 청구",
+"desc": "실손 · 97초",
+"file": "m_silson.mp4",
+"poster": "m_silson.jpg",
+"dur": 97,
+"cat": "실손"
+},
+{
 "id": "lib_dosu",
 "title": "도수 · 체외충격파",
 "desc": "도수 = 관리급여(강제) · 충격파 = 자율 가이드 · 57초",
@@ -422,15 +431,6 @@
 "file": "lib_s5.mp4",
 "poster": "lib_s5.jpg",
 "dur": 159,
-"cat": "실손"
-},
-{
-"id": "lib_silson",
-"title": "실손",
-"desc": "언젠가는 바꾸게 될 보험 — 세대가 보장을 정한다 · 61초",
-"file": "lib_silson.mp4",
-"poster": "lib_silson.jpg",
-"dur": 61,
 "cat": "실손"
 },
 {
