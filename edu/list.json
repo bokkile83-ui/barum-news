@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17",
+"updated": "2026-11-18",
 "videos": [
 {
 "id": "m_cancer_dx",
@@ -683,6 +683,24 @@
 "file": "lib_structure.mp4",
 "poster": "lib_structure.jpg",
 "dur": 64,
+"cat": "상담 기본"
+},
+{
+"id": "m_goji_std",
+"title": "건강체 알릴의무 — 질문은 5가지예요",
+"desc": "상담 기본 · 79초",
+"file": "m_goji_std.mp4",
+"poster": "m_goji_std.jpg",
+"dur": 79,
+"cat": "상담 기본"
+},
+{
+"id": "m_goji_3n5",
+"title": "간편 3.N.5 알릴의무 — 질문은 3가지예요",
+"desc": "상담 기본 · 77초",
+"file": "m_goji_3n5.mp4",
+"poster": "m_goji_3n5.jpg",
+"dur": 77,
 "cat": "상담 기본"
 }
 ]
