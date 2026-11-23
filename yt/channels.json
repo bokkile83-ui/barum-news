@@ -55,9 +55,19 @@
       "id": "hWCMEaQnl40",
       "channel": "보험팩폭",
       "d": "2026-11-22"
+    },
+    {
+      "id": "oXqbGZBgA8Y",
+      "channel": "보험탈출구",
+      "d": "2026-11-23"
+    },
+    {
+      "id": "6cNy63uh_u8",
+      "channel": "보험명의 정닥터",
+      "d": "2026-11-24"
     }
   ],
-  "last_channel": "보험팩폭",
+  "last_channel": "보험명의 정닥터",
   "skipped": [
     {
       "d": "2026-11-21",
