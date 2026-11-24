@@ -65,9 +65,14 @@
       "id": "6cNy63uh_u8",
       "channel": "보험명의 정닥터",
       "d": "2026-11-24"
+    },
+    {
+      "id": "JjDH2wUPqbE",
+      "channel": "보험탈출구",
+      "d": "2026-11-25"
     }
   ],
-  "last_channel": "보험명의 정닥터",
+  "last_channel": "보험탈출구",
   "skipped": [
     {
       "d": "2026-11-21",
